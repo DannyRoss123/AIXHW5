@@ -27,4 +27,4 @@ Navigate to **AIXHW5** and follow this path to access the dataset:
 Download the entire 'train' folder and place it in your working directory. While the original analysis used 500 images, GitHub file limitations restricted the upload to approximately 100 images. This reduced dataset is sufficient to replicate the analysis and demonstrate the effects of adversarial perturbations on saliency maps.
 
 ## Results
-The analysis demonstrates significant differences between saliency maps of clean and adversarially perturbed images, with an average similarity score of 0.079, supporting the hypothesis that adversarial perturbations meaningfully alter the model's attention patterns.
+The analysis demonstrates significant differences between both the models predictions of the clean and adversarial images as well as the saliency maps of clean and adversarially perturbed images. The quantitative results can be shown in the actual notebook. 
